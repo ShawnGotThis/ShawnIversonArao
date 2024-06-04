@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio: Web Development</title>
+    <!--custom css link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="sgt.png" type="image/x-icon"> 
+
+    <style>
+        .p-indent {
+            text-indent: 50px;
+            color: #ccc;
+        }
+    </style>
+   
+</head>
+<body>
+    <!--header design-->
+    <header>
+        <a href="index.html" class="logo">Shawn<span>Got</span>This.</a>
+
+    </header>
+    <div class="services-content">
+        <div class="box">
+            <div class="s-icons"> 
+                <i class='bx bx-code-alt'></i>
+                <h1><span>My Skills in </span> Data Modeling</h1><br><br>
+               
+            </div>
+            
+                <h3><span> Data Modeling Expertise: </span></h3>
+               <div class="p-indent">I possess a solid understanding of data modeling principles, including the creation of conceptual, logical, physical, dfd and erd data models.
+                I am adept at using various tools and methodologies to design data structures that efficiently support business processes and analytics.</div></p><br>
+
+                <h3><span> Tools and Technologies: </span></h3>
+                <div class="p-indent">I am proficient in using MySQL for database management, which allows me to create and manage complex databases effectively. 
+                For logical and physical modeling, I utilize Navicat, ensuring detailed and precise model designs. I employ Draw.io/Diagram.net 
+                for creating Data Flow Diagrams (DFD), Activity Diagrams, and Entity-Relationship Diagrams (ERD). Additionally, I use Figma as an alternative tool for designing and visualizing data models.</div></p><br>
+               
+                <h3><span> Data Analysis and Design: </span></h3>
+                <div class="p-indent">My experience includes analyzing business requirements to develop data models that accurately reflect the organization's needs. 
+                I can design normalized databases to minimize redundancy and ensure data integrity, as well as denormalized models to optimize performance for specific use cases.</div></p><br>
+
+                <h3><span> Collaboration and Communication: </span></h3>
+                <div class="p-indent">I have strong collaboration skills, having worked closely with developers, and data analysts to ensure that data models meet 
+                business requirements and technical constraints. My ability to clearly communicate complex data concepts to non-technical stakeholders ensures that everyone is aligned on the project's goals and objectives.</div></p><br>
+
+                <h3> Real-world Experience: </h3>
+                <div class="p-indent">During my three-month OJT experience as a Data Modeler at Pixel8 Software and Consultancy, I worked on real-world projects that involved designing data models 
+                for various applications. This hands-on experience has honed my skills in creating scalable and efficient data structures.</div></p><br>
+
+            <h3>Continuous Learning:</h3>
+            <div class="p-indent">I am committed to staying updated with the latest trends and best practices in data modeling. I regularly participate in online courses, webinars, and industry forums to enhance my knowledge and stay ahead in the field.</div></p><br>
+
+        </div>
+    </div>
+ 
+
+<script>
+    const header = document.querySelector("header");
+window.addEventListener("scroll", function() {
+    header.classList.toggle ("sticky", window.scrollY > 100);
+});
+
+
+</script>
+</body>
+</html>

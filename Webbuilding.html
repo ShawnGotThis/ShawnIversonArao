@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio: UI Design</title>
+    <!--custom css link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="sgt.png" type="image/x-icon">
+
+    <style>
+        .p-indent {
+            text-indent: 50px;
+            color: #ccc;
+        }
+    </style>
+
+</head>
+<body>
+    <!--header design-->
+    <header>
+        <a href="index.html" class="logo">Shawn<span>Got</span>This.</a>
+
+    </header>
+    <div class="services-content">
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-devices'></i>
+                <h1><span>My Skills in </span> Web Building</h1><br><br>
+                
+            </div>
+
+            <h3><span> Web Building Expertise: </span></h3>
+            <div class="p-indent"> I specialize in designing and developing user-friendly, visually appealing websites using both coding and drag-and-drop tools. 
+                My approach ensures seamless functionality and responsive layouts, tailored to meet diverse client needs.</div></p><br>
+
+             <h3><span> Tools and Technologies: </span></h3>
+             <div class="p-indent">My coding skills include proficiency in HTML5, CSS3, and Bootstrap for creating structured and visually appealing web pages. 
+                I have basic knowledge of JavaScript for enhancing interactivity, PHP for server-side scripting, and SQL for database management. For freelance 
+                web building, I primarily use Google Sites for its drag-and-drop capabilities and plan to expand my expertise to WordPress in the future.</div></p><br>
+            
+             <h3><span> Front-end and Tech Tools: </span></h3>
+             <div class="p-indent">I utilize various front-end tools and technologies to optimize the design and performance of websites. My comprehensive 
+                toolkit enables me to deliver high-quality web solutions that meet modern standards and client expectations.</div></p><br>
+
+            <h3>Continuous Learning:</h3>
+            <div class="p-indent">I am committed to continuous learning and staying updated with the latest web development trends and technologies. 
+                This drive ensures that I can provide innovative and effective web solutions, keeping pace with industry advancements.</div></p><br>
+         
+ 
+        </div>
+    </div>
+<script>
+    const header = document.querySelector("header");
+window.addEventListener("scroll", function() {
+    header.classList.toggle ("sticky", window.scrollY > 100);
+});
+
+
+</script>
+</body>
+</html>
